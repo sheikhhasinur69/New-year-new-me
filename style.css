@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+p{
+    color: #444343;
+}
+
+i{
+    color: green;
+}
+
+.banner-btn {
+  background-color: coral;
+  color: white;
+}
+.banner-img{
+    
+}
+
+.banner {
+  background-image: url(images/banner/banner1.png);
+  height: 100vh;
+  /* background-color: rgb(236, 236, 236); */
+ 
+}
+.banner-right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+}
+.banner-description{
+    width: 50%;
+    color: #444343;
+    line-height: 26px;
+}
+
+
+.section-two{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+    
+}
+
+.second-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.second-section-description{
+    margin-bottom: 24px;
+}
+.failure-list{
+    margin-bottom: 88px;
+}
+
+.plan-section{
+    margin-bottom: 135px;
+}
+
+.plan-section-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+text-align: center;
+margin-bottom: 55px;
+}
+
+.plans{
+    display: flex;
+    justify-content:space-around;
+}
+.plan{
+    
+    text-align: center;
+}
+
+.plan-title{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+}
+.plan-sub-title{
+    font-weight: 500;
+font-size: 25px;
+}
+
+
+.mindset-section{
+    margin-bottom: 130px;
+    background-image: url(images/watch.png),url(images/gradient1.png);
+    padding: 60px 165px;
+    color: white;
+}
+
+.mindset-title{
+    margin-bottom: 20px;
+}
+.mindset-btn{
+    color: coral;
+}
